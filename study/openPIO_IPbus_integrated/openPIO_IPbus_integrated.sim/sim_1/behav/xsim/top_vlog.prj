@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../HDL/RTL/GPIOPrioritySorter.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/lib/axis/rtl/axis_adapter.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/lib/axis/rtl/axis_async_fifo.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/lib/axis/rtl/axis_async_fifo_adapter.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/axis_gmii_rx.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/axis_gmii_tx.v" \
+"../../../../../../HDL/RTL/binaryOperations.v" \
+"../../../../../../HDL/RTL/clockDivider.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/eth_mac_1g.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/eth_mac_mii.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/eth_mac_mii_fifo.v" \
+"../../../../../../HDL/RTL/instructionDecoder.v" \
+"../../../../../../HDL/RTL/instructionMemory.v" \
+"../../../../../../HDL/RTL/isr.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/lfsr.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/mii_phy_if.v" \
+"../../../../../../HDL/RTL/osr.v" \
+"../../../../../../HDL/RTL/pio.v" \
+"../../../../../../HDL/RTL/smGPIOMapper.v" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/verilog-ethernet/rtl/ssio_sdr_in.v" \
+"../../../../../../HDL/RTL/stateMachine.v" \
+
+sv xil_defaultlib  \
+"../../../../../../24w-allimann-ethernet_ipbus/study/merge_ipbus_verilog-ethernet/rmii_ipbus/rtl/rmii_mii_converter.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

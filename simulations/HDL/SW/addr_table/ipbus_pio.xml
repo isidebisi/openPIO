@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<node>
+  <node id="pio0" fwinfo="endpoint;width=12">
+    <node id="CTRL"                address="0x000"/>
+    <node id="FSTAT"               address="0x004"/>
+    <node id="FDEBUG"              address="0x008"/>
+    <node id="FLEVEL"              address="0x00C"/>
+
+    <node id="TXF0"                address="0x010"/>
+    <node id="TXF1"                address="0x014"/>
+    <node id="TXF2"                address="0x018"/>
+    <node id="TXF3"                address="0x01C"/>
+
+    <node id="RXF0"                address="0x020"/>
+    <node id="RXF1"                address="0x024"/>
+    <node id="RXF2"                address="0x028"/>
+    <node id="RXF3"                address="0x02C"/>
+
+    <node id="IRQ"                 address="0x030"/>
+    <node id="IRQ_FORCE"           address="0x034"/>
+
+    <node id="INPUT_SYNC_BYPASS"   address="0x038"/>
+    <node id="DBG_PADOUT"          address="0x03C"/>
+    <node id="DBG_PADOE"           address="0x040"/>
+    <node id="DBG_CFGINFO"         address="0x044"/>
+
+    <!-- instruction memory -->
+    <node id="INSTR_MEM0"          address="0x048"/>
+    <node id="INSTR_MEM1"          address="0x04C"/>
+    <node id="INSTR_MEM2"          address="0x050"/>
+    <node id="INSTR_MEM3"          address="0x054"/>
+    <node id="INSTR_MEM4"          address="0x058"/>
+    <node id="INSTR_MEM5"          address="0x05C"/>
+    <node id="INSTR_MEM6"          address="0x060"/>
+    <node id="INSTR_MEM7"          address="0x064"/>
+    <node id="INSTR_MEM8"          address="0x068"/>
+    <node id="INSTR_MEM9"          address="0x06C"/>
+    <node id="INSTR_MEM10"         address="0x070"/>
+    <node id="INSTR_MEM11"         address="0x074"/>
+    <node id="INSTR_MEM12"         address="0x078"/>
+    <node id="INSTR_MEM13"         address="0x07C"/>
+    <node id="INSTR_MEM14"         address="0x080"/>
+    <node id="INSTR_MEM15"         address="0x084"/>
+    <node id="INSTR_MEM16"         address="0x088"/>
+    <node id="INSTR_MEM17"         address="0x08C"/>
+    <node id="INSTR_MEM18"         address="0x090"/>
+    <node id="INSTR_MEM19"         address="0x094"/>
+    <node id="INSTR_MEM20"         address="0x098"/>
+    <node id="INSTR_MEM21"         address="0x09C"/>
+    <node id="INSTR_MEM22"         address="0x0A0"/>
+    <node id="INSTR_MEM23"         address="0x0A4"/>
+    <node id="INSTR_MEM24"         address="0x0A8"/>
+    <node id="INSTR_MEM25"         address="0x0AC"/>
+    <node id="INSTR_MEM26"         address="0x0B0"/>
+    <node id="INSTR_MEM27"         address="0x0B4"/>
+    <node id="INSTR_MEM28"         address="0x0B8"/>
+    <node id="INSTR_MEM29"         address="0x0BC"/>
+    <node id="INSTR_MEM30"         address="0x0C0"/>
+    <node id="INSTR_MEM31"         address="0x0C4"/>
+
+    <!-- per‐SM configuration registers -->
+    <node id="SM0_CLKDIV"          address="0x0C8"/>
+    <node id="SM0_EXECCTRL"        address="0x0CC"/>
+    <node id="SM0_SHIFTCTRL"       address="0x0D0"/>
+    <node id="SM0_ADDR"            address="0x0D4"/>
+    <node id="SM0_INSTR"           address="0x0D8"/>
+    <node id="SM0_PINCTRL"         address="0x0DC"/>
+
+    <node id="SM1_CLKDIV"          address="0x0E0"/>
+    <node id="SM1_EXECCTRL"        address="0x0E4"/>
+    <node id="SM1_SHIFTCTRL"       address="0x0E8"/>
+    <node id="SM1_ADDR"            address="0x0EC"/>
+    <node id="SM1_INSTR"           address="0x0F0"/>
+    <node id="SM1_PINCTRL"         address="0x0F4"/>
+
+    <node id="SM2_CLKDIV"          address="0x0F8"/>
+    <node id="SM2_EXECCTRL"        address="0x0FC"/>
+    <node id="SM2_SHIFTCTRL"       address="0x100"/>
+    <node id="SM2_ADDR"            address="0x104"/>
+    <node id="SM2_INSTR"           address="0x108"/>
+    <node id="SM2_PINCTRL"         address="0x10C"/>
+
+    <node id="SM3_CLKDIV"          address="0x110"/>
+    <node id="SM3_EXECCTRL"        address="0x114"/>
+    <node id="SM3_SHIFTCTRL"       address="0x118"/>
+    <node id="SM3_ADDR"            address="0x11C"/>
+    <node id="SM3_INSTR"           address="0x120"/>
+    <node id="SM3_PINCTRL"         address="0x124"/>
+
+    <!-- PIO‐level interrupts -->
+    <node id="INTR"                address="0x128"/>
+    <node id="IRQ0_INTE"           address="0x12C"/>
+    <node id="IRQ0_INTF"           address="0x130"/>
+    <node id="IRQ0_INTS"           address="0x134"/>
+    <node id="IRQ1_INTE"           address="0x138"/>
+    <node id="IRQ1_INTF"           address="0x13C"/>
+    <node id="IRQ1_INTS"           address="0x140"/>
+  </node>
+</node>

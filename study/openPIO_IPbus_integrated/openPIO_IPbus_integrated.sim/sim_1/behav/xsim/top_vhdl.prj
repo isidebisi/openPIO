@@ -1,0 +1,50 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_util/firmware/hdl/cdc_reset.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_util/firmware/hdl/ipbus_clock_div.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/study/merge_ipbus_verilog-ethernet/rmii_ipbus/rtl/clocks_7s_extphy_custom.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/study/merge_ipbus_verilog-ethernet/rmii_ipbus/rtl/converter_wrapper.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/study/merge_ipbus_verilog-ethernet/rmii_ipbus/rtl/eth_mac_mii_merge.vhd" \
+"../../../../../../HDL/RTL/gpio_interface.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/ipbus_package.vhd" \
+"../../../../../../HDL/RTL/ipbus_clk_bridge.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/ipbus_trans_decl.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_ipam_block.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_build_arp.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_build_ping.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_ipaddr_ipam.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_build_payload.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_build_resend.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_build_status.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_status_buffer.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_byte_sum.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_do_rx_reset.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_packet_parser.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_rxram_mux.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_dualportram.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_buffer_selector.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_rxram_shim.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_dualportram_rx.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_rxtransactor_if_simple.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_dualportram_tx.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_tx_mux.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_txtransactor_if_simple.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_clock_crossing_if.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_transport_udp/firmware/hdl/udp_if_flat.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/trans_arb.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/transactor_if.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/transactor_sm.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/transactor_cfg.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/transactor.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_util/firmware/hdl/masters/ipbus_ctrl.vhd" \
+"../../../../../../HDL/RTL/ipbus_decode_ipbus_pio.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_core/firmware/hdl/ipbus_fabric_sel.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_slaves/firmware/hdl/ipbus_reg_types.vhd" \
+"../../../../../../HDL/RTL/pioWrapper.vhd" \
+"../../../../../../HDL/RTL/ipbus_pio.vhd" \
+"../../../../../../24w-allimann-ethernet_ipbus/rtl/ip/ipbus-firmware/components/ipbus_util/firmware/hdl/led_stretcher.vhd" \
+"../../../../openPIO_IPbus_integrated.srcs/sources_1/imports/rtl/pynq_TCL_rmii_infra.vhd" \
+"../../../../openPIO_IPbus_integrated.srcs/sources_1/imports/rtl/top_pynq_TCL_rmii.vhd" \
+
+# Do not sort compile order
+nosort
