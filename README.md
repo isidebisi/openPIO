@@ -11,15 +11,15 @@ See the report for more information
 The core of the PIO design is organized as follows:
 
 
-[pio.v](HDL/RTL/pio.v)
-├── [stateMachine.v](HDL/RTL/stateMachine.v)
-│   ├── [isr.v](HDL/RTL/isr.v)
-│   ├── [osr.v](HDL/RTL/osr.v)
-│   ├── [clockDivider.v](HDL/RTL/clockDivider.v)
-│   ├── [binaryOperations.v](HDL/RTL/binaryOperations.v)
-│   └── [instructionDecoder.v](HDL/RTL/instructionDecoder.v)
-├── [smGPIOMapper.v](HDL/RTL/smGPIOMapper.v)
-├── [prioritySorter.v](HDL/RTL/GPIOPrioritySorter.v)
+[pio.v](HDL/RTL/pio.v) \
+├── [stateMachine.v](HDL/RTL/stateMachine.v) \
+│   ├── [isr.v](HDL/RTL/isr.v) \
+│   ├── [osr.v](HDL/RTL/osr.v) \
+│   ├── [clockDivider.v](HDL/RTL/clockDivider.v) \
+│   ├── [binaryOperations.v](HDL/RTL/binaryOperations.v) \
+│   └── [instructionDecoder.v](HDL/RTL/instructionDecoder.v) \
+├── [smGPIOMapper.v](HDL/RTL/smGPIOMapper.v) \
+├── [prioritySorter.v](HDL/RTL/GPIOPrioritySorter.v) \
 └── [instructionMemory.v](HDL/RTL/instructionMemory.v)
 
 
