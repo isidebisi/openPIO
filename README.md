@@ -30,23 +30,23 @@ This hierarchy reflects the modular structure of the PIO, with clear separation 
 #### HDL/RTL Folder Structure
 
 
-[HDL/RTL/](HDL/RTL/)
-├── [binaryOperations.v](HDL/RTL/binaryOperations.v)
-├── [clockDivider.v](HDL/RTL/clockDivider.v)
-├── [gpio_interface.vhd](HDL/RTL/gpio_interface.vhd)
-├── [GPIOPrioritySorter.v](HDL/RTL/GPIOPrioritySorter.v)
-├── [instructionDecoder.v](HDL/RTL/instructionDecoder.v)
-├── [instructionMemory.v](HDL/RTL/instructionMemory.v)
-├── [isr.v](HDL/RTL/isr.v)
-├── [osr.v](HDL/RTL/osr.v)
-├── [pio.v](HDL/RTL/pio.v)
-├── [pioWrapper.vhd](HDL/RTL/pioWrapper.vhd)
-├── [smGPIOMapper.v](HDL/RTL/smGPIOMapper.v)
-├── [stateMachine.v](HDL/RTL/stateMachine.v)
-├── [top.vhd](HDL/RTL/top.vhd)
-├── [ipbus_clk_bridge.vhd](HDL/RTL/ipbus_clk_bridge.vhd) *
-├── [ipbus_decode_ipbus_pio.vhd](HDL/RTL/ipbus_decode_ipbus_pio.vhd) *
-├── [ipbus_pio.vhd](HDL/RTL/ipbus_pio.vhd) *
+[HDL/RTL/](HDL/RTL/) \
+├── [binaryOperations.v](HDL/RTL/binaryOperations.v) \
+├── [clockDivider.v](HDL/RTL/clockDivider.v) \
+├── [gpio_interface.vhd](HDL/RTL/gpio_interface.vhd) \
+├── [GPIOPrioritySorter.v](HDL/RTL/GPIOPrioritySorter.v) \
+├── [instructionDecoder.v](HDL/RTL/instructionDecoder.v) \
+├── [instructionMemory.v](HDL/RTL/instructionMemory.v) \
+├── [isr.v](HDL/RTL/isr.v) \
+├── [osr.v](HDL/RTL/osr.v) \
+├── [pio.v](HDL/RTL/pio.v) \
+├── [pioWrapper.vhd](HDL/RTL/pioWrapper.vhd) \
+├── [smGPIOMapper.v](HDL/RTL/smGPIOMapper.v) \
+├── [stateMachine.v](HDL/RTL/stateMachine.v) \
+├── [top.vhd](HDL/RTL/top.vhd) \
+├── [ipbus_clk_bridge.vhd](HDL/RTL/ipbus_clk_bridge.vhd) * \
+├── [ipbus_decode_ipbus_pio.vhd](HDL/RTL/ipbus_decode_ipbus_pio.vhd) * \
+├── [ipbus_pio.vhd](HDL/RTL/ipbus_pio.vhd) * \
 └── [top_fpga_rmii_pio.vhd](HDL/RTL/top_fpga_rmii_pio.vhd) *
 
 
