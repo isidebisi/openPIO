@@ -1,0 +1,3 @@
+[submodule "24w-allimann-ethernet_ipbus"]
+	path = 24w-allimann-ethernet_ipbus
+	url = git@tclgit.epfl.ch:semester-projects/24w-allimann-ethernet_ipbus.git
