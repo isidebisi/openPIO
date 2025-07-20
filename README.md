@@ -22,7 +22,7 @@ pio.v
 └── instructionMemory.v
 ```
 
-This hierarchy reflects the modular structure of the PIO, with clear separation between the main state machine, GPIO mapping, priority sorting, and instruction memory, as well as the internal components of the state machine.
+This hierarchy reflects the modular structure of the PIO, with clear separation between the main state machine, GPIO mapping, priority sorting, and instruction memory, as well as the internal components of the state machine. This is only for the PIO block itself without any integration in the IP-BUS project of the FPGA prototype.
 
 ---
 
